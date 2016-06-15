@@ -1,0 +1,21 @@
+<!-- Filename: /module/Blog/view/blog/list/index.phtml -->
+<h1>Blog</h1>
+<?php foreach ($this->posts as $post): ?>
+
+<article>
+	<h3 id="post<?= $post->getId() ?>"><?= $post->getTitle() ?></h3>
+	<p>
+		<?= $post->getText() ?>
+	</p>
+	<hr />
+	<?php # new DateTime($post->getTimestamp())?>
+	<span class="timestamps"><?php echo 'erstellt am '.date( "d.m.Y h:i", strtotime($post->getTimestamp())); ?></span>
+
+	<a href="blog/edit/<?php echo $post->getId() ; ?>"><span class="glyphicon glyphicon-pencil"></span>bearbeiten</a>&nbsp;&nbsp;
+	<a href="blog/delete/<?php echo $post->getId() ; ?>"><span class="glyphicon glyphicon-remove"></span>löschen</a>
+
+</article>
+
+
+<?php endforeach ?>
+<a href="blog/add"><span class="glyphicon glyphicon-add"></span>neuen Eintrag erstellen</a>
