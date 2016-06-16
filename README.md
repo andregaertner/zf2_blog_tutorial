@@ -1,4 +1,4 @@
-Schritt 1
+<h3>Schritt 1</h3>
 
 Installieren Sie beispielsweise eine lauffähige Skeleton Application.
 
