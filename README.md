@@ -1,10 +1,10 @@
 Schritt 1
 
-Installieren Sie beispielsweise eine lauffähige Skeleton Application
+Installieren Sie beispielsweise eine lauffähige Skeleton Application.
 
 Schritt 2
 
-Legen Sie das Modul in das Verzeichnis module und ändern den Name des entpackten zip.Archiv in Blog.
+Legen Sie das Modul in das Verzeichnis module ab und ändern den Name des entpackten zip.Archiv in Blog.
 
 Schritt 3
 
@@ -16,4 +16,4 @@ Anschließend müssen Sie das Modul registrieren. Dazu müssen Sie die applicati
 
 Schritt 5
 
-Anschließend sollte das Modul sichtbar sein. 
+Anschließend sollte das Modul sichtbar sein.
