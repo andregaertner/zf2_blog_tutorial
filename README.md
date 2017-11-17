@@ -1,5 +1,7 @@
 <h1>ZendFramework 2 Blog-Modul</h1>
 
+![alt text](https://andregaertner.com/wp-content/uploads/zf2_blog.png)
+
 <h3>Schritt 1</h3>
 
 Installieren Sie beispielsweise eine lauffähige Skeleton Application.
